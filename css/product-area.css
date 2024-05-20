@@ -11,7 +11,7 @@
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));  /* Define las columnas de la cuadrícula para que se ajusten automáticamente al espacio disponible, con un tamaño mínimo de 320px y máximo flexible. */
     grid-gap:20px;  /* Establece un espacio de 20px entre las celdas de la cuadrícula. */
     text-align: center;  /* Alinea el texto de cada celda de la cuadrícula al centro. */
-    margin: 20px;
+    margin: 10px;
 }
 
 /*Contenedor de Productos*/
