@@ -1,3 +1,7 @@
+/*Fuente Russo One y Open Sans de Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Russo+One&display=swap');
+
+
 body {
     background-color: white;
     font-optical-sizing: auto;  /* Permite que el navegador ajuste el tamaño óptico de la fuente automáticamente. */
