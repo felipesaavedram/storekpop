@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&family=Russo+One&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+body {
+    background-color: white;
+    font-optical-sizing: auto;  /* Permite que el navegador ajuste el tamaño óptico de la fuente automáticamente. */
+    font-family: "Open Sans", sans-serif;  /* Define la familia tipográfica principal como 'Noto Sans', y secundariamente cualquier tipografía sans-serif disponible. */
+
+
+}
+
+.main-title{
+    font-family: 'Russo One';
+    color: black;
+    margin: 20px;
+
+}
+
+.section-title{
+    font-family: 'Open Sans';
+    color: black;
+    margin: 10px;
+    font-weight: 900;
+
+}
+
+.container{
+    text-align: center;
+    margin: 20px;
+    margin-top: 3em;
+}

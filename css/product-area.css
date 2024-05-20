@@ -1,12 +1,47 @@
 /*Estilo de Grilla*/
-
-
+.grid-container{
+    width: 100%; /* Opcional, para asegurar que el contenedor ocupe todo el ancho del viewport */
+    max-width: 1200px; /* Ancho máximo del contenido para evitar que se vea demasiado extendido en pantallas grandes */
+    margin: 0 auto; /* Centrar el contenedor en la pantalla */
+    padding: 0 5%; /* Márgenes laterales del 5% del ancho de la pantalla */
+    box-sizing: border-box; /* Incluye el padding dentro del ancho del contenedor */
+}
 .grid{
-
+    display: grid;  /* Configura el contenedor para usar un diseño de cuadrícula. */
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));  /* Define las columnas de la cuadrícula para que se ajusten automáticamente al espacio disponible, con un tamaño mínimo de 320px y máximo flexible. */
+    grid-gap:20px;  /* Establece un espacio de 20px entre las celdas de la cuadrícula. */
+    text-align: center;  /* Alinea el texto de cada celda de la cuadrícula al centro. */
+    margin: 20px;
 }
 
 /*Contenedor de Productos*/
 
 .product-container{
+    background-color: white;  /* Establece el color de fondo de los elementos con clase .box a blanco. */
+    margin: 1px;  /* Añade un margen de 1px alrededor de los elementos .box. */
+    width: 100%;  /* Establece el ancho de los elementos .box al 100% del contenedor padre. */
+    box-sizing: border-box;  /* Incluye el padding y el borde en el cálculo del ancho total del elemento. */
+    border: 1px rgb(233, 233, 233);
+    margin-top: 3em;
+}
 
+.product-img {
+    height: auto;
+    width: auto;
+    max-width: 100%;
+}
+
+.product-title {
+    margin: 0;
+    text-align: left;
+    font-weight: 100;
+}
+
+.product-price {
+    margin-top: 2px;
+    margin-left:0;
+    text-align: left;
+    font-weight:700;
+    font-size: large;
+    color: #b62bad;
 }
