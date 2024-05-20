@@ -6,27 +6,31 @@ body {
     background-color: white;
     font-optical-sizing: auto;  /* Permite que el navegador ajuste el tamaño óptico de la fuente automáticamente. */
     font-family: "Open Sans", sans-serif;  /* Define la familia tipográfica principal como 'Noto Sans', y secundariamente cualquier tipografía sans-serif disponible. */
+    margin: 0;
+    padding: 0;
 
+}
 
+#header{
+    padding: 3em;
+    background-color: white;
+    margin: 0;
 }
 
 .main-title{
     font-family: 'Russo One';
     color: black;
-    margin: 20px;
 
 }
 
 .section-title{
     font-family: 'Open Sans';
     color: black;
-    margin: 10px;
     font-weight: 900;
 
 }
 
 .container{
     text-align: center;
-    margin: 20px;
     margin-top: 3em;
 }
