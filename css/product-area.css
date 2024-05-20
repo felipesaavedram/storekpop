@@ -5,6 +5,7 @@
     margin: 0 auto; /* Centrar el contenedor en la pantalla */
     padding: 0 5%; /* Márgenes laterales del 5% del ancho de la pantalla */
     box-sizing: border-box; /* Incluye el padding dentro del ancho del contenedor */
+    text-align: center;
 }
 .grid{
     display: grid;  /* Configura el contenedor para usar un diseño de cuadrícula. */
@@ -23,6 +24,7 @@
     box-sizing: border-box;  /* Incluye el padding y el borde en el cálculo del ancho total del elemento. */
     border: 1px rgb(233, 233, 233);
     margin-top: 3em;
+    text-align: center;
 }
 
 .product-img {
